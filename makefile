@@ -23,6 +23,5 @@ doc:
 =======
 doc:
 	doxygen -g index.html
-	doxygen Doxyfile
->>>>>>> dd7655d3a5ebe0ed0aeb40d86f0f98cd1449409a
+	doxygen index.html
 
