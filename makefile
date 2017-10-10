@@ -16,11 +16,7 @@ othello.o: othello.cc othello.h game.h piece.h colors.h
 clean:
 	rm *.o output
 
-<<<<<<< HEAD
-doc:
-	doxygen -g index.html
-	doxygen index.html
-=======
+
 doc:
 	doxygen -g index.html
 	doxygen index.html
