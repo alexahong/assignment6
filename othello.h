@@ -2,7 +2,9 @@
 // CS2401
 // November 23, 2015
 // Project7
-
+/** @file othello.h
+* @brief This is the header file for othello that lets you play the game by keeping track of whose move it is letting you make moves and checking if theyre legal and checking if the game is over
+*/
 #ifndef OTHELLO_H
 #define OTHELLO_H
 #include "game.h"
@@ -21,6 +23,9 @@ public:
 
 	void display_status()const;
 	int evaluate()const;
+	/**@brief this function checks if the game is over
+	* @return bool
+	*/
 	bool is_game_over()const;
 	bool is_legal(const string& move)const;
 	void make_move(const string& move);

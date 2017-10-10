@@ -74,7 +74,7 @@ void game::display_message(const string& message) const
 /** @brief
 
 * tells the user whos turn it is
-* @return answer
+* @return answer, a string
 
 */
 
@@ -92,7 +92,7 @@ string game::get_user_move( ) const
 
 * determines who is winning
 
-* @return determines who is winning or if they have the same score
+* @return determines who is winning or if they have the same score.
 
 */
 
@@ -119,7 +119,7 @@ game::who game::winning()const {
 *  evaluates a board position with lookahead
 * @param look_ahead - how deep the lookagead should go to evaulate the move
 * @param beat_this - value of another move that we're considering. if the current board position cannot beat this, then it cuts it short
-* @return returns value is large if the position is good for the player who just moved.
+* @return returns value is large if the position is good for the player who just moved, returns int.
 
 */
 
@@ -175,6 +175,7 @@ int game::eval_with_lookahead(int look_ahead, int beat_this)
 /** @brief
 
 *  computes all legal moves that the computer can make. It will evaluate each legal move and saves the index of the best move.
+* @return void
 
 */
 
@@ -214,6 +215,7 @@ void game::make_computer_move( )
 /** @brief
 
 *  makes the best legal move for the human
+* @return void
 
 */
 
