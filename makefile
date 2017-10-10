@@ -18,5 +18,5 @@ clean:
 
 docs:
 	@doxygen
-	@open doxygen/html/index.html
+	@open /Users/alexahong/Desktop/Fall Semester 2017-2018/CS3560/homework/assignment6
 
