@@ -1,4 +1,4 @@
-all: output
+all: output docs
 
 output: main.o game.o othello.o
 	g++ main.o game.o othello.o -o output
@@ -15,4 +15,8 @@ othello.o: othello.cc othello.h game.h piece.h colors.h
 
 clean:
 	rm *.o output
+
+docs:
+	@doxygen
+	@open doxygen/html/index.html
 
