@@ -17,5 +17,6 @@ clean:
 	rm *.o output
 
 doc:
-	doxygen Doxyfile
+	doxygen -g index.html
+	doxygen index.html
 

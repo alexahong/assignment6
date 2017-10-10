@@ -1,0 +1,5 @@
+<map id="othello.h" name="othello.h">
+<area shape="rect" id="node2" href="$game_8h_source.html" title="game.h" alt="" coords="5,80,71,107"/>
+<area shape="rect" id="node5" href="$piece_8h.html" title="this file creates the peices for the game and checks if the pieces are the right color ..." alt="" coords="95,80,159,107"/>
+<area shape="rect" id="node6" href="$colors_8h_source.html" title="colors.h" alt="" coords="184,80,252,107"/>
+</map>
