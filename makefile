@@ -17,6 +17,5 @@ clean:
 	rm *.o output
 
 doc:
-	doxygen -g index.html
-	@open /Users/alexahong/Desktop/Fall Semester 2017-2018/CS3560/homework/assignment6
+	doxygen Doxyfile
 
