@@ -1,4 +1,4 @@
-all: output docs
+all: doc output 
 
 output: main.o game.o othello.o
 	g++ main.o game.o othello.o -o output
@@ -16,7 +16,7 @@ othello.o: othello.cc othello.h game.h piece.h colors.h
 clean:
 	rm *.o output
 
-docs:
-	@doxygen
+doc:
+	doxygen -g index.html
 	@open /Users/alexahong/Desktop/Fall Semester 2017-2018/CS3560/homework/assignment6
 
